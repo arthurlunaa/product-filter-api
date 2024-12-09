@@ -20,9 +20,9 @@ function displayProducts(filteredProducts){
     if (filteredProducts.lenght ===0) {
           productList.innerHTML ='<p> nenhum produto encontrado   </p>'
     }
-
-    filteredProducts.array.forEach((products) => {
-        //criando uma div com js 
+   // percorrendo todos os items do produto 
+    filteredProducts.array.forEach((product) => {
+        //criando uma div com js um 
         const productElement = document.createElement('div')
         // adicionando uma classe com js
         productElement.className('product')
