@@ -21,14 +21,12 @@ input#filter-input {
     transition: box-shadow 0.2s ease-in-out;
 }
 
-
-
 #product-list {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
     margin-top: 2rem;
-
-    
+    gap: 24px;
+    padding: 1rem;
 }
 
 .product {  
@@ -36,6 +34,7 @@ input#filter-input {
     border: 1px solid #ccc;
     border-radius: 36px;
     padding: 24px 64px;
+    gap:24px;
     align-items: center; 
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     text-align: center;
